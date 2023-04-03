@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        :root {
+            background-color: #c6c6c6;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .aside-menu {
+            height: 100%;
+            padding: 0 28px;
+            background-color: #21222c;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* position: fixed; */
+        }
+
+        .imagem-redonda {
+            border-style: solid;
+            border-color: #48ff70;
+            border-width: 6px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        .table-menu {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14pt;
+            border-collapse: separate;
+            border-spacing: 20px;
+            font-family: 'Raleway', sans-serif;
+            color: #88fbff;
+        }
+
+        .table-menu a {
+            text-decoration: none;
+            color: #50fa7b;
+        }
+
+        .table-menu a:hover {
+            color: #b168d3;
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            background-color: #44475c;
+            color: #fff;            
+        }
+
+        .container h1, span {
+            font-size: 3rem;
+            color: #61d4fd;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        /* Tirei, porquê ficou feio demais. Caso queiram ver se funciona, basta tirar o span da class container e descomentar essa class */
+        /* .container span {
+            font-size: 3rem;
+            color: #fdd361;
+            font-family: 'Roboto Condensed', sans-serif;
+        } */
+
+        .objetivos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            background-color: #44475c;
+            color: #fff;
+            
+        }
+
+        .objetivos h1 {
+            font-size: 3rem;
+            color: #61d4fd;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin-bottom: 40px;
+        }
+
+        .subtitles {
+            margin-bottom: 40px;
+            font-size: 13px;
+            color: #beeeff;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .subtitles a {
+            text-decoration: none;
+            color: #50fa7b;
+        }
+
+        .box {
+            width: 800px;
+            margin: 0px 0px 0px 30px;
+            padding: 15px;
+        }
+
+        .box p {
+            margin-bottom: 0px;
+        }
+
+        .conhecimentos-lista  ol{
+            margin-left: 20px;
+        }
+
+        .conhecimentos-lista  h3{            
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        .buttons {
+            padding: 4px 20px 0px 0px ;
+        }
+
+        .my-15 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .green {
+            color: #50fa78;
+        }
